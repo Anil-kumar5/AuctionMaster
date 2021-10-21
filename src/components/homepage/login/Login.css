@@ -1,0 +1,55 @@
+.login-name,.login-textarea{
+    width:100%;
+    font-size: 22px;
+    color: #707070;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.login-name{
+    padding: 10px 0px 14px 22px ;
+}
+.login-email,
+.login-phone{
+    padding: 12px 0 15px 24px;
+    font-size: 22px;
+}
+.login-email ,
+.login-phone {
+    width : 40%;
+}
+.login-phone{
+    float: right;
+}
+/* button{
+    width : 45%;
+} */
+.login-textarea{
+    height:20vh;
+}
+.login-write-btn{
+    background-color: #2ea44f;
+    padding : 18px 0px 19px 39px;
+    font-size: 22px;
+    color: #fff;
+    width:45%;
+
+}
+.login-signup-btn{
+    background-color: #1877f2;
+    padding: 18px 0px 19px 23px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 5px;
+    width:45%;
+    float: right;
+    text-align: center;
+}
+form{
+    padding: 40px;
+    background: rgba(255, 255, 255, .09);
+    /* -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px); */
+    /* background: transparent; */
+    /* -webkit-backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
+}

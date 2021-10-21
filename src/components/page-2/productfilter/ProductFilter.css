@@ -1,0 +1,108 @@
+.items-sortby-filter-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:820px;
+    margin-left:25.5vw;
+    justify-content: space-between;
+    padding:22px 27px 19px;
+    border:1px solid #707070;
+    border-radius:5px;
+}
+.sortby-header{
+    font-size:18px;
+}
+.select-container{
+    outline:none;
+    border:none;
+    width:170px;
+    border :1px solid #e3e3e3;
+    padding:9px 26.5px 12px 16px;
+    font-size:19px;
+    border-radius: 25px;
+    
+}
+.sortby-searching{
+    border:1px solid #e3e3e3;
+    padding: 9px 21px 13px 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-action{
+    outline:none;
+    border:none;
+   font-size:18px;
+
+}
+.slider-range-filter-container{
+    padding: 19px 42px 16px 40px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.range-filter-container{
+    position: relative;
+    padding:25px 40px 20px 0px;
+}
+.range-slider{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    outline: none;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom:0;
+    background-color: transparent;
+    pointer-events: none;
+}
+.range-slider-track{
+    width:100%;
+    height:3px;
+    background-color: #aeaeae;
+    position: absolute;
+}
+.range-slider::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    height: 5px;
+}
+.range-slider::-ms-track{
+  appearance: none;
+  height: 5px;
+}
+.range-slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height:10px;
+    width:10px;
+    background-color: black;
+    border-radius: 10px;
+    pointer-events: auto;
+    margin-top: -30px;
+}
+.price-header{
+    text-align: center;
+}
+
+.price-tag{
+    margin-top:40px;
+    width: 100%;
+}
+.slider-price-tag{
+    font-size: 18px;
+}
+.slider-amount{
+    float: right;
+}
+.auction-items-filter-header{
+    font-size:24px;
+    font-weight:500;
+}
+.auction-typefilter-descp{
+    font-size:18px;
+    margin-left:11px;
+}
+.sortby-searching:active{
+    border:2px solid red;
+}
+

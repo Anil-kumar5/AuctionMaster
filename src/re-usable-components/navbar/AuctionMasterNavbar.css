@@ -1,0 +1,39 @@
+.navbar-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding :10px 0 15px 50px; */
+}
+ .navbar-lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-list{
+    margin-left: 47px;
+    list-style-type: none;
+}
+.navbar-list-link{
+    text-decoration: none;
+    font-size : 16px;
+    font-weight : 400;
+    color : #fff;
+}
+.nav-btn{
+   padding: 9px 25px 11px 20px;
+   background: transparent;
+   border : none;
+   outline : none;
+   border : .6px solid #fff;
+   font-size:15px;
+   font-weight : 100;
+   color : #fff;
+}
+.am-header-logo{
+    width:120px;
+    height:55px;
+}
+.nav-routing-container{
+    font-size: 18px;
+    color:#fff;
+    font-weight: 300;
+}

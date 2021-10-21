@@ -1,0 +1,17 @@
+{
+    "cards" : [
+        {
+            "name":"Sample Text Here",
+            "image":"./card1.png"
+        },  {
+            "name":"Sample Text Here",
+            "image":"./card2.png"
+        },  {
+            "name":"Sample Text Here",
+            "image":"./card3.png"
+        },  {
+            "name":"Sample Text Here",
+            "image":"./card4.png"
+        }
+    ]
+}

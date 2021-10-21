@@ -1,0 +1,22 @@
+{
+    "timeLeft" :[
+        {
+            "id" : 1,
+            "endsin" : "0d:4h:36m:12s",
+            "activeIcon" : "./icon1.png",
+            "activeBidders" : "52",
+            "viewersIcon" : "./icon2.png",
+            "viewing" : "280",
+            "bidsIcon": "./icon3.png",
+            "totalBids" : "87"
+        }
+    ],
+    "productDetails" : [
+        {
+            "id" : 2,
+            "currentPrice" : " RS 50.0K",
+            "preminum" : "10.00%",
+            "increment" : " RS 10.0k"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+.passwordOkie ::before{
+content: ' matched' ;
+}
+.passwordnotokie ::before{
+ content:  'not matched';
+}
+.required-field , .password-mismatched{
+    color: red;
+}
+.password-mismatched{
+    font-size: 14px;
+}

@@ -1,0 +1,11 @@
+.pending{
+    background-color: red;
+}
+.another{
+    background-color: green;
+}
+select{
+    outline: none;
+    border:none;
+    background-color: transparent;
+}
